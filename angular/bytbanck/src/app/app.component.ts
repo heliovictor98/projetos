@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+
+
+  transferencia: any;
+
+  transferir($event: any){
+    console.log($event);
+    this.transferencia = $event;
+
+  }
+
   title = 'bytbanck';
 }

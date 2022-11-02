@@ -1,2 +1,24 @@
-<p>Valor:{{transferencia?.valor}}</p>
-<p>Destino:{{transferencia?.destino}}</p>
+<table>
+  <thead>
+    <th>Data</th>
+    <th>Valor</th>
+    <th>Destino</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let tranferencia of transferencias">
+      <td>{{tranferencia?.data | date:"short"}}</td>
+      <td>{{tranferencia?.valor }}</td>
+      <td>{{tranferencia?.destino }}</td>
+    </tr>
+  </tbody>
+
+</table>
+
+<!-- <div *ngFor="let transferencia of transferencias">
+
+  <p>Data:{{transferencia?.data}}</p>
+  <p>Valor:{{transferencia?.valor}}</p>
+  <p>Destino:{{transferencia?.destino}}</p>
+
+</div> -->
+

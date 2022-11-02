@@ -10,21 +10,27 @@
 
 > Em construção...
  
+<h4>Para iniciar o projeto precisa passar pelos seguintes passos</h4>
+
+> Ter instalado na sua maquina o NOTE v16 ou superior
 ```bash
-# Clone este repositório
-$ git clone <https://github.com/tgmarinho/nlw1>
+https://nodejs.org/en/download/
+```
 
-# Acesse a pasta do projeto no terminal/cmd
-$ cd nlw1
+> Instale o Angular/CLI
 
-# Vá para a pasta server
-$ cd server
+```bash
+npm install -g @angular/cli
+```
 
-# Instale as dependências
-$ npm install
+> Instale o projeto
 
-# Execute a aplicação em modo de desenvolvimento
-$ npm run dev:server
+```bash
+npm install
+```
 
-# O servidor inciará na porta:3333 - acesse <http://localhost:3333>
+> Execute o projeto
+
+```bash
+ng serve
 ```

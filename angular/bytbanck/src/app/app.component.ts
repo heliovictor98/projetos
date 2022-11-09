@@ -7,13 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-
-  transferencias: any[] = [];
+  service: any;
 
   transferir($event: any){
-    console.log($event);
-    const transferencia = {...$event, data: new Date()};
-    this.transferencias.push(transferencia);
+    this.service.adicionar($event);
 
   }
 

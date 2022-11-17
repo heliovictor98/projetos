@@ -8,3 +8,13 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'formularios-template-driven';
 }
+
+
+consultaCEP(1);{
+  console.log();
+
+}
+function consultaCEP(cep: any) {
+  throw new Error('Function not implemented.');
+}
+

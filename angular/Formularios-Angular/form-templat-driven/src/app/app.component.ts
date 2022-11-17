@@ -6,15 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'formularios-template-driven';
+  title = 'form-templat-driven';
 }
-
-
-consultaCEP(1);{
-  console.log();
-
-}
-function consultaCEP(cep: any) {
-  throw new Error('Function not implemented.');
-}
-

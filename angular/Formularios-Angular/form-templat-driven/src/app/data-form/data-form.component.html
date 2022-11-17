@@ -1,3 +1,23 @@
-<p>
-  data-form works!
-</p>
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+
+<br>
+<form class="container" [formGroup]="formulario">
+
+  <div class="col-sm-5">
+    <label for="nome" class="form-label">Nome</label>
+    <input type="nome" class="form-control" id="nome" formControlName="nome" >
+  </div>
+  <div class="col-sm-5">
+    <label for="email" class="form-label">Email</label>
+    <input type="email" class="form-control" id="email" formControlName="email" >
+  </div><br>
+
+  <button type="submit" class="btn btn-success">Enviar</button>
+
+
+</form>
+
+
+
